@@ -2,6 +2,17 @@ nvm -> npm
 // TO_DO 
   React + TypeScript + Vite: https://blog.csdn.net/weixin_29007809/article/details/158228009
 
+install nvm 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
+
+
+//version problem, macOs is too old
+https://www.google.com/search?q=yld%5B16380%5D%3A+Symbol+not+found%3A+%28__ZNSt3__122__libcpp_verbose_abortEPKcz%29+Referenced+from%3A+%27%2FUsers%2Ffengshaobin%2F.nvm%2Fversions%2Fnode%2Fv26.1.0%2Fbin%2Fnode%27+Expected+in%3A+%27%2Fusr%2Flib%2Flibc%2B%2B.1.dylib%27&rlz=1C5CHFA_enUS859US859&oq=yld%5B16380%5D%3A+Symbol+not+found%3A+%28__ZNSt3__122__libcpp_verbose_abortEPKcz%29+Referenced+from%3A+%27%2FUsers%2Ffengshaobin%2F.nvm%2Fversions%2Fnode%2Fv26.1.0%2Fbin%2Fnode%27+Expected+in%3A+%27%2Fusr%2Flib%2Flibc%2B%2B.1.dylib%27&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzcxNmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+// fixing downgrade the node version
+nvm install 20
+nvm use 20
+
+
 nvm
   //check the nvm current version
   nvm current
